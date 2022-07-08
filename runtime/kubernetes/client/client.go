@@ -9,8 +9,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/micro/go-micro/runtime/kubernetes/client/api"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/runtime/kubernetes/client/api"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 var (

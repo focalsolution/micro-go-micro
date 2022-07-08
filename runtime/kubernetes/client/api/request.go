@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 // Request is used to construct a http request for the k8s API.

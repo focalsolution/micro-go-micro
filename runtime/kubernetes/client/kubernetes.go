@@ -4,7 +4,7 @@ package client
 import (
 	"strings"
 
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/registry/memory"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/registry/memory"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 func routerTestSetup() Router {

@@ -2,7 +2,7 @@
 package input
 
 import (
-	"github.com/micro/cli"
+	"github.com/focalsolution/micro-cli"
 )
 
 type EventType string

@@ -9,16 +9,16 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/client/pool"
-	"github.com/micro/go-micro/client/selector"
-	"github.com/micro/go-micro/codec"
-	raw "github.com/micro/go-micro/codec/bytes"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/util/buf"
+	"github.com/focalsolution/micro-go-micro/broker"
+	"github.com/focalsolution/micro-go-micro/client/pool"
+	"github.com/focalsolution/micro-go-micro/client/selector"
+	"github.com/focalsolution/micro-go-micro/codec"
+	raw "github.com/focalsolution/micro-go-micro/codec/bytes"
+	"github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/metadata"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/transport"
+	"github.com/focalsolution/micro-go-micro/util/buf"
 )
 
 type rpcClient struct {

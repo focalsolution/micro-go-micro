@@ -4,8 +4,8 @@ package server
 import (
 	"net/http"
 
-	"github.com/micro/go-micro/sync/lock"
-	lkhttp "github.com/micro/go-micro/sync/lock/http"
+	"github.com/focalsolution/micro-go-micro/sync/lock"
+	lkhttp "github.com/focalsolution/micro-go-micro/sync/lock/http"
 )
 
 func Handler(lk lock.Lock) http.Handler {

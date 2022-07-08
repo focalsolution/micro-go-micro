@@ -9,8 +9,8 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/codec/bytes"
+	"github.com/focalsolution/micro-go-micro/codec"
+	"github.com/focalsolution/micro-go-micro/codec/bytes"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 )

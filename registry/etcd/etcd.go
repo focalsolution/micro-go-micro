@@ -15,13 +15,13 @@ import (
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/util/log"
 	hash "github.com/mitchellh/hashstructure"
 )
 
 var (
-	prefix = "/micro/registry/"
+	prefix = "/focalsolution/micro-registry/"
 )
 
 type etcdRegistry struct {

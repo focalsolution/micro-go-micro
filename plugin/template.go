@@ -5,7 +5,7 @@ var (
 package main
 
 import (
-	"github.com/micro/go-micro/plugin"
+	"github.com/focalsolution/micro-go-micro/plugin"
 
 	"{{.Path}}"
 )

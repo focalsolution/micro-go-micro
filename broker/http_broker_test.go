@@ -7,9 +7,9 @@ import (
 
 	glog "github.com/go-log/log"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/registry/memory"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/registry/memory"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 func newTestRegistry() registry.Registry {

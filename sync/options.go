@@ -1,10 +1,10 @@
 package sync
 
 import (
-	"github.com/micro/go-micro/store"
-	"github.com/micro/go-micro/sync/leader"
-	"github.com/micro/go-micro/sync/lock"
-	"github.com/micro/go-micro/sync/time"
+	"github.com/focalsolution/micro-go-micro/store"
+	"github.com/focalsolution/micro-go-micro/sync/leader"
+	"github.com/focalsolution/micro-go-micro/sync/lock"
+	"github.com/focalsolution/micro-go-micro/sync/time"
 )
 
 // WithLeader sets the leader election implementation opton

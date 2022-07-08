@@ -14,14 +14,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/registry"
-	maddr "github.com/micro/go-micro/util/addr"
-	mhttp "github.com/micro/go-micro/util/http"
-	"github.com/micro/go-micro/util/log"
-	mnet "github.com/micro/go-micro/util/net"
-	mls "github.com/micro/go-micro/util/tls"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/registry"
+	maddr "github.com/focalsolution/micro-go-micro/util/addr"
+	mhttp "github.com/focalsolution/micro-go-micro/util/http"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	mnet "github.com/focalsolution/micro-go-micro/util/net"
+	mls "github.com/focalsolution/micro-go-micro/util/tls"
 )
 
 type service struct {

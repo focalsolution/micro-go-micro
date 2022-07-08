@@ -6,9 +6,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/micro/go-micro/debug/log"
-	proto "github.com/micro/go-micro/debug/service/proto"
-	"github.com/micro/go-micro/server"
+	"github.com/focalsolution/micro-go-micro/debug/log"
+	proto "github.com/focalsolution/micro-go-micro/debug/service/proto"
+	"github.com/focalsolution/micro-go-micro/server"
 )
 
 var (

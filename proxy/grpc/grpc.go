@@ -6,12 +6,12 @@ import (
 	"io"
 	"strings"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/client/grpc"
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/config/options"
-	"github.com/micro/go-micro/proxy"
-	"github.com/micro/go-micro/server"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/client/grpc"
+	"github.com/focalsolution/micro-go-micro/codec"
+	"github.com/focalsolution/micro-go-micro/config/options"
+	"github.com/focalsolution/micro-go-micro/proxy"
+	"github.com/focalsolution/micro-go-micro/server"
 )
 
 // Proxy will transparently proxy requests to the backend.

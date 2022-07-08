@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/store"
-	store_mock "github.com/micro/go-micro/store/mock"
-	mem_lock "github.com/micro/go-micro/sync/lock/memory"
+	"github.com/focalsolution/micro-go-micro/store"
+	store_mock "github.com/focalsolution/micro-go-micro/store/mock"
+	mem_lock "github.com/focalsolution/micro-go-micro/sync/lock/memory"
 	"github.com/stretchr/testify/mock"
 )
 

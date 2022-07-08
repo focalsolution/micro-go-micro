@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/micro/go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/registry"
 )
 
 const (

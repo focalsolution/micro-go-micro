@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/agent/input"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/agent/input"
 	"github.com/nlopes/slack"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/micro/go-micro/transport"
+	"github.com/focalsolution/micro-go-micro/transport"
 )
 
 // Handle registers the handler for the given pattern.

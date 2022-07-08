@@ -7,8 +7,8 @@ import (
 
 	client "github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/micro/go-micro/config/options"
-	"github.com/micro/go-micro/store"
+	"github.com/focalsolution/micro-go-micro/config/options"
+	"github.com/focalsolution/micro-go-micro/store"
 )
 
 type ekv struct {

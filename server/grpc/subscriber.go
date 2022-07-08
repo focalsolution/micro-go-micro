@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/broker"
+	"github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/metadata"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/server"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 const (

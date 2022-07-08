@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/registry"
 )
 
 // Options are router options

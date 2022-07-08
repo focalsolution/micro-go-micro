@@ -4,16 +4,16 @@ import (
 	"bytes"
 	errs "errors"
 
-	"github.com/micro/go-micro/codec"
-	raw "github.com/micro/go-micro/codec/bytes"
-	"github.com/micro/go-micro/codec/grpc"
-	"github.com/micro/go-micro/codec/json"
-	"github.com/micro/go-micro/codec/jsonrpc"
-	"github.com/micro/go-micro/codec/proto"
-	"github.com/micro/go-micro/codec/protorpc"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/transport"
+	"github.com/focalsolution/micro-go-micro/codec"
+	raw "github.com/focalsolution/micro-go-micro/codec/bytes"
+	"github.com/focalsolution/micro-go-micro/codec/grpc"
+	"github.com/focalsolution/micro-go-micro/codec/json"
+	"github.com/focalsolution/micro-go-micro/codec/jsonrpc"
+	"github.com/focalsolution/micro-go-micro/codec/proto"
+	"github.com/focalsolution/micro-go-micro/codec/protorpc"
+	"github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/transport"
 )
 
 const (

@@ -2,8 +2,8 @@
 package static
 
 import (
-	"github.com/micro/go-micro/client/selector"
-	"github.com/micro/go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/client/selector"
+	"github.com/focalsolution/micro-go-micro/registry"
 )
 
 // staticSelector is a static selector

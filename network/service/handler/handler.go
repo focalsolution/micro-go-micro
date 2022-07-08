@@ -4,12 +4,12 @@ package handler
 import (
 	"context"
 
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/network"
-	pbNet "github.com/micro/go-micro/network/proto"
-	"github.com/micro/go-micro/router"
-	pbRtr "github.com/micro/go-micro/router/proto"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/network"
+	pbNet "github.com/focalsolution/micro-go-micro/network/proto"
+	"github.com/focalsolution/micro-go-micro/router"
+	pbRtr "github.com/focalsolution/micro-go-micro/router/proto"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 // Network implements network handler

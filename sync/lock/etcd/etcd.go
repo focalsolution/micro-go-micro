@@ -11,7 +11,7 @@ import (
 
 	client "github.com/coreos/etcd/clientv3"
 	cc "github.com/coreos/etcd/clientv3/concurrency"
-	"github.com/micro/go-micro/sync/lock"
+	"github.com/focalsolution/micro-go-micro/sync/lock"
 )
 
 type etcdLock struct {
@@ -105,7 +105,7 @@ func NewLock(opts ...lock.Option) lock.Lock {
 	}
 
 	return &etcdLock{
-		path:   "/micro/lock",
+		path:   "/focalsolution/micro-lock",
 		client: c,
 		opts:   options,
 		locks:  make(map[string]*elock),

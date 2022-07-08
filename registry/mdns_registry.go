@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/mdns"
+	"github.com/focalsolution/micro-mdns"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/router"
-	pb "github.com/micro/go-micro/router/proto"
+	"github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/router"
+	pb "github.com/focalsolution/micro-go-micro/router/proto"
 )
 
 // Router implements router handler

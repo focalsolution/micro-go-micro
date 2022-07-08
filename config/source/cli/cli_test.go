@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/config/source"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/config/source"
 )
 
 func test(t *testing.T, withContext bool) {

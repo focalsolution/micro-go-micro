@@ -1,10 +1,10 @@
 package router
 
 import (
-	"github.com/micro/go-micro/api/resolver"
-	"github.com/micro/go-micro/api/resolver/micro"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/api/resolver"
+	"github.com/focalsolution/micro-go-micro/api/resolver/micro"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/registry"
 )
 
 type Options struct {

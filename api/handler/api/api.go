@@ -4,13 +4,13 @@ package api
 import (
 	"net/http"
 
-	goapi "github.com/micro/go-micro/api"
-	"github.com/micro/go-micro/api/handler"
-	api "github.com/micro/go-micro/api/proto"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/client/selector"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/util/ctx"
+	goapi "github.com/focalsolution/micro-go-micro/api"
+	"github.com/focalsolution/micro-go-micro/api/handler"
+	api "github.com/focalsolution/micro-go-micro/api/proto"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/client/selector"
+	"github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/util/ctx"
 )
 
 type apiHandler struct {

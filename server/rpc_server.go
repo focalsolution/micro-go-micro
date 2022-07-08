@@ -12,16 +12,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/codec"
-	raw "github.com/micro/go-micro/codec/bytes"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/util/addr"
-	log "github.com/micro/go-micro/util/log"
-	mnet "github.com/micro/go-micro/util/net"
-	"github.com/micro/go-micro/util/socket"
+	"github.com/focalsolution/micro-go-micro/broker"
+	"github.com/focalsolution/micro-go-micro/codec"
+	raw "github.com/focalsolution/micro-go-micro/codec/bytes"
+	"github.com/focalsolution/micro-go-micro/metadata"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/transport"
+	"github.com/focalsolution/micro-go-micro/util/addr"
+	log "github.com/focalsolution/micro-go-micro/util/log"
+	mnet "github.com/focalsolution/micro-go-micro/util/net"
+	"github.com/focalsolution/micro-go-micro/util/socket"
 )
 
 type rpcServer struct {

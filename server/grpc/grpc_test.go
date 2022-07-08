@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/micro/go-micro/registry/memory"
-	"github.com/micro/go-micro/server"
+	"github.com/focalsolution/micro-go-micro/registry/memory"
+	"github.com/focalsolution/micro-go-micro/server"
 	"google.golang.org/grpc"
 
-	pb "github.com/micro/go-micro/server/grpc/proto"
+	pb "github.com/focalsolution/micro-go-micro/server/grpc/proto"
 )
 
 // server is used to implement helloworld.GreeterServer.

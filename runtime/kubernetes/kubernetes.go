@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/runtime"
-	"github.com/micro/go-micro/runtime/kubernetes/client"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/runtime"
+	"github.com/focalsolution/micro-go-micro/runtime/kubernetes/client"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 // action to take on runtime service

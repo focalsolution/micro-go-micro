@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/runtime/build"
+	"github.com/focalsolution/micro-go-micro/runtime/build"
 
-	"github.com/micro/go-micro/runtime/process"
-	proc "github.com/micro/go-micro/runtime/process/os"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/runtime/process"
+	proc "github.com/focalsolution/micro-go-micro/runtime/process/os"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 type service struct {

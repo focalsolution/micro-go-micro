@@ -5,9 +5,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/registry"
-	pb "github.com/micro/go-micro/registry/service/proto"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/registry"
+	pb "github.com/focalsolution/micro-go-micro/registry/service/proto"
 )
 
 var (

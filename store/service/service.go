@@ -6,10 +6,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/config/options"
-	"github.com/micro/go-micro/store"
-	pb "github.com/micro/go-micro/store/service/proto"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/config/options"
+	"github.com/focalsolution/micro-go-micro/store"
+	pb "github.com/focalsolution/micro-go-micro/store/service/proto"
 )
 
 type serviceStore struct {

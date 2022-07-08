@@ -7,15 +7,15 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/debug/profile"
-	"github.com/micro/go-micro/debug/profile/pprof"
-	"github.com/micro/go-micro/debug/service/handler"
-	"github.com/micro/go-micro/plugin"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-micro/util/wrapper"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/debug/profile"
+	"github.com/focalsolution/micro-go-micro/debug/profile/pprof"
+	"github.com/focalsolution/micro-go-micro/debug/service/handler"
+	"github.com/focalsolution/micro-go-micro/plugin"
+	"github.com/focalsolution/micro-go-micro/server"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/util/wrapper"
 )
 
 type service struct {

@@ -11,8 +11,8 @@ import (
 	"github.com/lib/pq"
 	"github.com/pkg/errors"
 
-	"github.com/micro/go-micro/config/options"
-	"github.com/micro/go-micro/store"
+	"github.com/focalsolution/micro-go-micro/config/options"
+	"github.com/focalsolution/micro-go-micro/store"
 )
 
 // DefaultNamespace is the namespace that the sql store

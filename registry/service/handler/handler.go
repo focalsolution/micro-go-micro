@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/registry/service"
-	pb "github.com/micro/go-micro/registry/service/proto"
+	"github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/registry/service"
+	pb "github.com/focalsolution/micro-go-micro/registry/service/proto"
 )
 
 type Registry struct {
