@@ -1,4 +1,4 @@
-module github.com/micro/go-micro
+module github.com/focalsolution/micro-go-micro
 
 go 1.13
 
