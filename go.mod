@@ -8,6 +8,9 @@ require (
 	github.com/bitly/go-simplejson v0.5.0
 	github.com/bwmarrin/discordgo v0.20.1
 	github.com/coreos/etcd v3.3.17+incompatible
+	github.com/focalsolution/micro-cli v0.2.0
+	github.com/focalsolution/micro-mdns v0.3.0-focal
+	github.com/focalsolution/micro-protoc-gen-micro v1.0.0 // indirect
 	github.com/forestgiant/sliceutil v0.0.0-20160425183142-94783f95db6c
 	github.com/fsnotify/fsnotify v1.4.7
 	github.com/fsouza/go-dockerclient v1.6.0
@@ -28,9 +31,6 @@ require (
 	github.com/lib/pq v1.2.0
 	github.com/lucas-clemente/quic-go v0.13.1
 	github.com/mholt/certmagic v0.8.3
-	github.com/focalsolution/micro-cli v0.2.0
-	github.com/focalsolution/micro-mdns v0.3.0
-	github.com/focalsolution/micro-protoc-gen-micro v1.0.0 // indirect
 	github.com/miekg/dns v1.1.22
 	github.com/mitchellh/hashstructure v1.0.0
 	github.com/nats-io/nats.go v1.9.1
