@@ -28,9 +28,9 @@ require (
 	github.com/lib/pq v1.2.0
 	github.com/lucas-clemente/quic-go v0.13.1
 	github.com/mholt/certmagic v0.8.3
-	github.com/micro/cli v0.2.0
-	github.com/micro/mdns v0.3.0
-	github.com/micro/protoc-gen-micro v1.0.0 // indirect
+	github.com/focalsolution/micro-cli v0.2.0
+	github.com/focalsolution/micro-mdns v0.3.0
+	github.com/focalsolution/micro-protoc-gen-micro v1.0.0 // indirect
 	github.com/miekg/dns v1.1.22
 	github.com/mitchellh/hashstructure v1.0.0
 	github.com/nats-io/nats.go v1.9.1
