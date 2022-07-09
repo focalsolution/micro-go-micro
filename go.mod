@@ -8,7 +8,7 @@ require (
 	github.com/bitly/go-simplejson v0.5.0
 	github.com/bwmarrin/discordgo v0.20.1
 	github.com/coreos/etcd v3.3.17+incompatible
-	github.com/focalsolution/micro-cli v0.2.0
+	github.com/focalsolution/micro-cli v0.2.1
 	github.com/focalsolution/micro-mdns v0.3.0-focal
 	github.com/focalsolution/micro-protoc-gen-micro v1.0.0 // indirect
 	github.com/forestgiant/sliceutil v0.0.0-20160425183142-94783f95db6c
